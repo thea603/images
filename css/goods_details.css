@@ -1,0 +1,629 @@
+html{
+	font-size: 16px;
+}
+.buy-info{
+	background-color:#242424;
+	display: inline-block;
+}
+.buy-info .buy-details{
+	width: 100%;
+	height: 90%;
+}
+
+.buy-info .goods-info{
+	width: 40%;
+	float: left;
+	height: 90%;
+	margin-top: 5%;
+	margin-left: 10%;
+	color: #FFFFFF;
+}
+.buy-info .goods-info h1{
+	font-size: 1.5em;
+}
+.buy-info .goods-info h2{
+	font-size: .9em;
+	margin-top: 5%;
+	color: #dedede;
+}
+.buy-info .goods-info h2:nth-child(3){
+	margin-top: 1%;
+	border-bottom:2px solid #ffffff;
+	height: 10%;
+	width: 30%;
+}
+.buy-info .goods-info .specification{
+	width: 100%;
+	height: 80%;
+	margin-top: 3%;
+}
+.buy-info .goods-info .specification .title{
+	font-size: 1.1em;
+}
+.buy-info .goods-info .specification .sp{
+	margin-top: 1%;
+}
+
+.buy-info .goods-info .specification span{
+	font-size: .9em
+}
+.buy-info .goods-info .specification  .goods-type,.buy-info .goods-info .specification  .color-type,.buy-info .goods-info .specification  .project-price,.buy-info .goods-info .specification  .buy-button{
+	width: 100%;
+	height: 13%;
+	position: relative;
+}
+
+
+.buy-info .goods-info .specification  .goods-type p,.buy-info .goods-info .specification  .color-type p,.buy-info .goods-info .specification  .project-price p{
+	position: absolute;
+	bottom:0;
+	height: 30%;
+	display: block;
+	width: 15%;
+}
+.buy-info .goods-info .specification  .goods-type div{
+	width: 30%;
+	position: absolute;
+	height: 50px;
+	cursor: pointer;
+	bottom: 0;
+	line-height:50px; 
+	text-align: center;
+	border:2px solid #ffffff;
+}
+
+.buy-info .goods-info .specification  .goods-type div:nth-child(2),.buy-info .goods-info .specification  .color-type div:nth-child(2){
+	left: 15%;
+}
+.buy-info .goods-info .specification  .goods-type div:nth-child(3){
+	left: 47%;
+}
+.buy-info .goods-info .specification  .goods-type div:nth-child(4){
+	left: 79%;
+}
+.buy-info .goods-info .specification  .color-type div{
+	width: 14%;
+	position: absolute;
+	height: 40px;
+	cursor: pointer;
+	bottom: 0;
+	line-height:40px; 
+	text-align: center;
+	border:2px solid #ffffff;
+}
+.buy-info .goods-info .specification  .color-type div:nth-child(3){
+	left: 31%;
+}
+.buy-info .goods-info .specification  .color-type div:nth-child(4){
+	left: 47%;
+}
+.buy-info .goods-info .specification  .color-type div:nth-child(5){
+	left: 63%;
+}
+.buy-info .goods-info .specification  .project-price div{
+	position: absolute;
+	bottom: -7px;
+	font-size: 2.1em;
+	left: 15%;
+	color:#FFFFFF;
+}
+.buy-info .goods-info .specification  .buy-button .button{
+	width: 45%;
+	border:2px solid #FFFFFF;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.5em;
+	cursor: pointer;
+	letter-spacing: 5px;
+	float: left;
+}
+.buy-info .goods-info .specification  .buy-button div:nth-child(2){
+	margin-left: 5%;
+}
+.click{
+	background-color: #FFFFFF;
+	color: black;
+}
+.project-datails-pic{
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom:6%;
+	padding-bottom: 5%;
+}
+.project-pics{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.project-pics img{
+	width: 100%;
+}
+
+/*轮播*/
+.buy-info .goods-pic{
+	width: 30%;
+	height: 100%;
+	position: relative;
+	margin-left: 15%;
+	float: left;
+	overflow: hidden;
+}
+
+.goods-banner-pic{
+	height: 100%;
+	position: absolute;
+}
+.goods-banner-content{
+   height: 100%;
+   float: left;
+   text-align: center;
+   color: #ffffff;
+   font-size: 3em;
+   line-height: 500px;
+}
+
+.goods-banner-pic #commodity-list{
+	width: 50%;
+	margin: 10% auto;
+	display: block;
+	position: relative;
+	top:50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.goods-banner-content .commodity-title{
+	width: 20%;
+	position: absolute;
+	height: 10%;
+	bottom: 13%;	
+	display: block;
+	text-align: center;
+}
+
+.goods-banner-content .commodity-title img{
+	display: block;
+	margin:  0 auto;
+}
+.goods-change{
+	width: 20%;
+	position: absolute;
+	height: 100%;
+	top:0;
+	text-align: center;
+}
+.goods-change .goods-left-pic{
+	width: 17%;
+	height: 30%;
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	top:35%;
+	left: 30%;
+}
+.goods-right-button{
+	right: -20%;
+	transition:right 1s;
+	-moz-transition:right 1s; /* Firefox 4 */
+	-webkit-transition:right 1s; /* Safari and Chrome */
+	-o-transition:right 1s; 
+}
+.goods-left-button{
+	left:-20%;
+	transition:left 1s;
+	-moz-transition:left 1s; /* Firefox 4 */
+	-webkit-transition:left 1s; /* Safari and Chrome */
+	-o-transition:left 1s; 	
+}
+.goods-pic:hover .goods-left-button{
+	left: 0;
+}
+.goods-pic:hover .goods-right-button{
+	right: 0;
+}
+
+
+.goods-right-button .goods-right-pic{
+	width: 17%;
+	cursor: pointer;
+	height: 30%;
+	position: absolute;
+	display: block;
+	top:35%;
+	left: 30%;
+}
+/*.goods-crl-buttons { 
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 5%;
+ 	bottom:5%;
+ 	display: inline-block;
+ 	text-align: center;
+}
+
+.goods-crl-buttons span {
+	cursor: pointer; 
+	width: 15px; 
+	height: 15px;
+	display: inline-block;
+	text-align: center;
+	margin-left:3px;
+	border-radius: 50%; 
+	background: #ffffff; 
+}
+.goods-crl-buttons .on{
+	background-color: red;
+
+}*/
+.goods-crl-buttons { 
+ position: absolute;
+ width: auto;
+ height: 5%;
+ bottom:11%;
+ left: 50%;
+  -webkit-transform: translateX(-50%);
+ -moz-transform:translateX(-50%);
+ transform: translateX(-50%);
+ display: inline-block;
+ text-align: center;
+}
+
+.goods-crl-buttons span {
+	cursor: pointer; 
+	width: 15px; 
+	height: 15px;
+	display: block; 
+	border-radius: 50%; 
+	margin-left:2px;
+	float: left;
+	background: #ffffff; 
+}
+.goods-crl-buttons .on{
+	background-color: red;
+
+}
+.buy-url{
+	display: none;
+	position: absolute;
+	bottom:-250%;
+	width: 120%;
+	height: 250%;
+	left: -20%;
+	background: url(../images/goods_details/4.pic_hd.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+.buy-title{
+	position: absolute;
+	width: 20%;
+	height: 70%;
+	border-right:2px solid #dedede;
+	line-height: 100px;
+	color: black;
+	text-align: center;
+	bottom:6%;
+
+}
+.buy-address{
+	position: absolute;
+	width: 55%;
+	height: 70%;
+	bottom: 6%;
+	left: 15%;
+}
+.buy-address .jd{
+	display: block;
+	width: 45%;
+	height: 80%;
+	background: url(../images/goods_details/jd.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-left: 5%;
+	float: left;
+	text-align: center;
+}
+.buy-address .tmall{
+	display: block;
+	width: 45%;
+	height: 80%;
+	background: url(../images/goods_details/tmall.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-left: 55%;
+	text-align: center;
+}
+.jd-url{
+	display: block;
+	width: 45%;
+	margin-left: 5%;
+	font-size: .5em;
+	text-align: center;
+	float: left;
+	margin-top: 1%
+}
+.tmall-url{
+	display: block;
+	text-align: center;
+	width: 45%;
+	font-size: .5em;
+	margin-left: 55%;
+	margin-top: 1%;
+}
+.buy-wechat{
+	position: absolute;
+	width: 15%;
+	height: 70%;
+	right: 5%;
+	bottom: 6%;
+}
+.buy-wechat img{
+	display: block;
+	width: 95%;
+	height: 80%;
+}
+.buy-wechat .wechat-url{
+	font-size: .5em;
+	display: block;
+	text-align: center;
+}
+.buy-button{
+	margin-top: 3% ! important; 
+}
+.block{
+	display: block;
+}
+.project-pics-buy{
+	background-color: #242424;
+	position: relative;
+	width: 100%;
+}
+.project-pics-buy a{
+	position: absolute;
+	bottom: -13%;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.project-pics-buy a button{
+	width: 10%;
+	height: 50px;
+	background-color: #232323;
+	color: #ffffff;
+	border:1px solid #ffffff;
+	cursor: pointer;
+	margin-left: 1%;
+}
+.project-pics-buy .pic{
+	width: 38%;
+	display: block;
+	margin-left: 32%;
+	height:auto;
+}
+.business-plane{
+	position: relative;
+}
+.more{
+	color: #e65150;
+	font-size: 2em;
+	display: block;
+	letter-spacing: 2px;
+	position: absolute;
+	top:70%;
+	left: 45%;
+	-webkit-transform: translateX(-45%);
+	transform: translateX(-45%);
+	-webkit-transform: translateY(-70%);
+	transform: translateY(-70%);
+	text-decoration: none;
+
+}
+.product-buy-button{
+	position: relative;
+}
+.product-buy-button .button{
+	width: 100%;
+	position: absolute;
+	bottom: -3%;
+}
+.product-buy-button .buttons{
+	width: 100%;
+	position: absolute;
+	bottom: -13%;
+}
+.product-buy-button .button button{
+	width: 10%;
+	height: 50px;
+	background-color: #232323;
+	color: #ffffff;
+	border:1px solid #ffffff;
+	cursor: pointer;
+}
+.product-buy-button .buttons button{
+	width: 10%;
+	height: 50px;
+	background-color: #232323;
+	color: #ffffff;
+	border:1px solid #ffffff;
+	cursor: pointer;
+}
+.product-buy-button .button a:nth-child(1) button{
+	margin-left: 15%;
+}
+.product-buy-button .button a:nth-child(2) button{
+	margin-left: 48%;
+}
+.product-buy-button .buttons a:nth-child(1) button{
+	margin-left: 12.5%;
+}
+.product-buy-button .buttons a:nth-child(2) button{
+	margin-left: 24%;
+}
+.product-buy-button .buttons a:nth-child(3) button{
+	margin-left: 21.5%;
+}
+@media (max-width: 480px) {
+	.buy-info .goods-info{
+		width: 12rem;
+		margin-left:1rem;
+		/*margin-top:6rem;*/
+		height: auto;
+		margin-top: 0;
+		position: absolute;
+		left: 13em;
+		top:55%;
+		-webkit-transform: translateX(-55%);
+		transform: translateX(-55%);
+		-webkit-transform: translateY(-55%);
+		transform: translateY(-55%);
+		
+	}
+	.buy-info .goods-info h1{
+		font-size: 0.9rem;
+	}
+	.buy-info .goods-info h2{
+		font-size: 0.5rem;
+	}
+	.buy-info .goods-info h2:nth-child(3){
+		width: 12rem;
+	}
+	.buy-info .goods-info .specification .sp{
+		margin-top: 0.1rem;
+	}
+	
+	.buy-info .goods-info .specification .title{
+		font-size: 0.8rem;
+	}.buy-info .goods-info .specification .goods-type, .buy-info .goods-info .specification .color-type, .buy-info .goods-info .specification .project-price, .buy-info .goods-info .specification .buy-button{
+		height: 2.2rem;
+	}
+	.buy-info .goods-info .specification span{
+		font-size: 0.5rem;
+	}
+	.buy-info .goods-info .specification .goods-type p, .buy-info .goods-info .specification .color-type p, .buy-info .goods-info .specification .project-price p{
+		width: 4rem;
+		bottom: 0.2rem;
+	}
+	.buy-info .goods-info .specification .goods-type div:nth-child(2), .buy-info .goods-info .specification .color-type div:nth-child(2){
+		left:4rem;
+	}
+	.buy-info .goods-info .specification .goods-type div:nth-child(3){
+		left: 7.1rem;
+	}
+	.buy-info .goods-info .specification .goods-type div:nth-child(4){
+		left: 10rem;
+	}
+	.buy-info .goods-info .specification .goods-type div{
+		width: 3rem;
+		height: 2rem;
+		font-size: 0.5rem;
+		line-height: 2rem;
+	}
+	.buy-info .goods-info .specification .color-type div{
+		width: 2rem;
+		height: 1.5rem;
+		line-height: 1.5rem;
+	}
+	.buy-info .goods-info .specification .color-type div:nth-child(3){
+		left: 6.1rem;
+	}
+	.buy-info .goods-info .specification .color-type div:nth-child(4){
+		left: 8.19rem;
+	}
+	.buy-info .goods-info .specification .color-type div:nth-child(5){
+		left: 10.29rem;
+	}
+	.buy-info .goods-info .specification .project-price div{
+		left:4rem;
+		bottom:-0.5rem;
+	}
+	.buy-info .goods-info .specification .buy-button .button{
+		width: 5rem;
+		height: 2rem;
+		font-size: 1rem;
+		line-height: 2rem;
+
+	}
+	.buy-info .goods-info .specification .buy-button div:nth-child(2){
+		margin-left: 1rem;
+	}
+	.buy-info .goods-info .specification .buy-button{
+		top:0.9rem;
+
+	}
+	.buy-info .goods-pic{
+		width: 35%;
+		top:55%;
+		height: 20rem;
+		position: absolute;
+		margin-left: 5%;
+		-webkit-transform: translateX(-55%);
+		transform: translateX(-55%);
+		-webkit-transform: translateY(-55%);
+		transform: translateY(-55%);
+	}
+	.goods-crl-buttons {
+		left:43%;
+		bottom:1rem;
+	}
+	.more{
+		font-size: 0.9rem;
+	}
+	.product-buy-button .button{
+		bottom:-0.9rem;
+	}
+	.product-buy-button .button button{
+		width: 4rem;
+		height: 1.2rem;
+		font-size: 0.5rem;
+	}
+	.product-buy-button .button a:nth-child(1) button{
+		margin-left: 13%;
+	}
+	.product-buy-button .button a:nth-child(2) button{
+		margin-left: 44%;
+	}
+	
+	.product-buy-button .buttons{
+		bottom:-2rem;
+	}
+	.product-buy-button .buttons button{
+		width: 4rem;
+		height: 1.2rem;
+		font-size: 0.5rem;
+	}
+	.product-buy-button .buttons a:nth-child(1) button{
+		margin-left: 11%;
+	}
+	.product-buy-button .buttons a:nth-child(2) button{
+		margin-left: 20%;
+	}
+	.product-buy-button .buttons a:nth-child(3) button{
+		margin-left: 18%;
+	}
+	.project-pics-buy a button{
+		width: 4rem;
+		height: 1.2rem;
+		font-size: 0.5rem;
+	}
+	.buy-title{
+		font-size: 0.7rem;
+		width: 4.6rem;
+	}
+	.buy-url{
+		width: 16rem;
+	}
+	.buy-address{
+		left: 21%;
+	}
+	.buy-address .jd{
+		width: 4rem;
+		height: 3rem;
+		border:none;
+	}
+	.buy-address .tmall{
+		border:none;
+	}
+	.buy-wechat{
+		right: 1%;
+	}
+	.buy-wechat .wechat-url{
+		font-size: 0.37rem;
+		margin-top: 0.1rem;
+	}
+}

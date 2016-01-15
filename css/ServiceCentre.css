@@ -1,0 +1,151 @@
+
+
+
+.content-type-box{
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+}
+.content-type-box:first-child{
+	padding-top: 100px;
+}
+
+.contant-common-type{
+	width: 100%;
+	height: auto;
+	padding: 50px 4% 50px 5%;
+	background-color: #202020;
+}
+.contant-common-type li{
+	display: inline-block;
+	float: left;
+	width: 8%;
+	margin: 0 6%;
+}
+.content-problem{
+	width: 94%;
+	height: auto;
+	margin: 0 auto;
+}
+.content-problem textarea{
+	width: 60%;
+	margin-right: 4%;
+	height: 205px;
+	float: left;
+	display: inline-block;
+	border-radius: 8px;
+	resize: none;
+	padding: 10px;
+	font-size: 1.1em;
+	font-family: "微软雅黑";
+}
+input::-webkit-input-placeholder {
+	color: #a4a4a4 !important; 
+	font-size: 1.1em;
+	font-family: "微软雅黑";
+}
+input:-moz-placeholder {
+	color: #a4a4a4 !important; 
+	font-size: 1.1em;
+	font-family: "微软雅黑";
+}
+input::-moz-placeholder {
+	color: #a4a4a4 !important; 
+	font-size: 1.1em;
+	font-family: "微软雅黑";
+}
+input:-ms-input-placeholder {
+	color: #a4a4a4 !important; 
+	font-size: 1.1em;
+	font-family: "微软雅黑";
+}
+textarea::-webkit-input-placeholder {
+	color: #a4a4a4 !important; 
+	font-size: 1.1em;
+	font-family: "微软雅黑";
+}font-family: "微软雅黑";
+}
+textarea::-moz-placeholder {
+	color: #a4a4a4 !important; 
+	font-size: 1.1em;
+	font-family: "微软雅黑";
+}
+textarea:-ms-input-placeholder {
+	color: #a4a4a4 !important; 
+	font-size: 1.1em;
+	font-family: "微软雅黑";
+}
+input:focus{
+	border: none !important;
+	box-shadow: 0 0 15px #385A91;
+}
+textarea:focus{
+	border: none !important;
+	box-shadow: 0 0 15px #385A91;
+}
+.input-infor{
+	float: left;
+	display: inline-block;
+	width: 36%;
+	height: 55px;
+	border-radius: 8px;
+	padding: 6px 15px;
+	line-height: 33px;
+	font-size: 1.1em;
+	border: none;
+	margin-bottom: 20px;
+	font-family: "微软雅黑";
+}
+.input-infor:last-child{
+	margin-bottom: 0;
+}
+.content-problem-tips{
+	width: 100%;
+	text-align: right;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 1.1em;
+}
+.form-submit{
+	float: right;
+	margin-right: 1%;
+	background-color: #D43836;
+	width: 19%;
+	height: 60px;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: none;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+	font-size: 1.2em;
+	font-family: "微软雅黑";
+}
+@media (max-width: 480px) {
+	.content-problem textarea{
+		font-size: 0.4rem;
+		height: 6rem;
+	}
+	input:-ms-input-placeholder,input::-webkit-input-placeholder,input::-moz-placeholder{
+		font-size: 0.4rem;
+	}
+	textarea:-ms-input-placeholder,textarea::-webkit-input-placeholder,textarea::-moz-placeholder{
+		font-size: 0.4rem;
+	}
+	.input-infor{
+		font-size: 0.4rem;
+		height: 1.5rem;
+		margin-bottom: 0.75rem;
+		border-radius: 3px;
+		line-height: 1.5rem;
+	}
+	.content-problem-tips{
+		font-size: 0.45rem;
+	}
+	.form-submit{
+		font-size: 0.5rem;
+		height: 1.5rem;
+		line-height: 1.5rem;
+		border-radius: 3px;
+	}
+}
