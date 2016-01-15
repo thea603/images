@@ -1,0 +1,7 @@
+/node_modules
+package.json
+gulpfile.js
+/js
+!/js/*.min.js
+/css
+!/css/*.min.css
