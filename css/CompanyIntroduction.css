@@ -1,0 +1,456 @@
+
+.content-main{
+	padding-top: 8%;
+}
+.content-about{
+	width: 94%;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	color: white;
+}
+.content-about .content-about-left{
+	width: 82%;
+	height: auto;
+	float: left;
+	display: inline-block;
+}
+.left-list-title{
+	width: 62%;
+	height: 60px;
+	display: inline-block;
+}
+.left-list-title .list-title{
+	border-bottom: 60px solid #2F2F2F;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 37%;
+	margin-left: -6%;
+	float: left;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+}
+.left-list-title .list-title.active{
+	border-bottom-color: #3D3D3D;
+	z-index: 5;
+}
+.left-list-title .list-title:first-child{
+	margin: 0;
+}
+.left-list-title .list-title a{
+	width: 100%;
+	height: 60px;
+	display: block;
+	line-height: 60px;
+	font-size: 1.3em;
+	color: #9f9f9f;
+	text-align: center;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	overflow: hidden;
+	cursor: pointer;
+}
+.content-about-left .tab-content{
+	width: 100%;
+	height: auto;
+	margin-top: -4px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-color: #3D3D3D;
+}
+.tab-pane{
+	display: none;
+}
+.tab-pane.active{
+	display: block;
+}
+.company-image{
+	display: block;
+	margin-bottom: 70px;
+}
+.introduces-title{
+	font-family: "微软雅黑";
+	line-height: 40px;
+	width: 94%;
+	margin: 0 auto 60px;
+	font-size: 1.9em;
+	letter-spacing: 2px;
+}
+.introduction{
+	font-family: "微软雅黑";
+	line-height: 35px;
+	width: 94%;
+	margin: 0 auto 60px;
+	font-size: 1.15em;
+	letter-spacing: 1px;
+}
+.introduction-img{
+	width: 94%;
+	margin: 0 3% 40px;
+	display: inline-block;
+}
+.introduction-img li{
+	width: 31.33%;
+	float: left;
+	display: inline-block;
+	margin-left: 3%;
+}
+.introduction-img li:first-child{
+	margin: 0;
+}
+.content-account{
+	list-style: none;
+	counter-reset: count;
+	width: 94%;
+	height: auto;
+	margin: 0 auto 50px;
+	font-family: "微软雅黑";
+}
+.content-account li:before{
+	color: red;
+	content: "●";
+	font-size: 2.3em;
+}
+.account-list .account-year{
+	display: inline-block;
+	line-height: 32px;
+	font-size: 1.8em;
+	margin-left: 1%;
+	margin-bottom: 15px;
+}
+.account-list p{
+	margin-left: 7%;
+	line-height: 24px;
+	font-size: 1.1em;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+.show-glory{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.show-glory .glory-list{
+	float: left;
+	display: inline-block;
+	margin-right: 1%;
+}
+.show-glory .glory-list:nth-child(1){
+	width: 32.7%;
+}
+.show-glory .glory-list:nth-child(2){
+	width: 38%;
+}
+.show-glory .glory-list:last-child{
+	margin: 0;
+	width: 27.3%;
+}
+.show-glory .glory-list img{
+	margin-bottom: 15px;
+}
+.show-glory .glory-list img:last-child{
+	margin: 0;
+}
+.content-about .content-about-right{
+	width: 15%;
+	height: auto;
+	padding-top: 27px;
+	float: right;
+	display: inline-block;
+}
+.content-about-right .content-about-right-title{
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	font-family: "微软雅黑";
+}
+.content-about-right .about-link{
+	width: 100%;
+	height: auto;
+	background-color: #3D3D3D;
+	padding: 0 10% 20px;
+}
+.content-about-right .about-link .list{
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+	border-bottom: 1px solid #787878;
+}
+.content-about-right .about-link .list:last-child{
+	border-bottom:none;
+}
+.content-about-right .about-link .list dt{
+	color: white;
+	font-size: 1.35em;
+	line-height: 30px;
+	margin-left: 10px;
+	font-family: "微软雅黑";
+}
+.content-about-right .about-link .list dd.dd-active a{
+	color: red;
+}
+.content-about-right .about-link .list dd{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.content-about-right .about-link .list dd a{
+	color: white;
+	font-size: 1em;
+	margin-left: 10px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+.content-about-right .about-link .list dd a:hover{
+	cursor: pointer;
+}
+.content-about-right .about-link .list dd span.marker{
+	width: 5px;
+	height: 30px;
+	background-color: red;
+	position: absolute;
+	top: -30px;
+	left: 0;
+}
+.content-about-right .auout-other-link{
+	width: 100%;
+	height: auto;
+	margin-top: 25px;
+}
+.content-about-right .auout-other-link .contact{
+	font-family: "微软雅黑";
+	line-height: 40px;
+	font-size: 1.85em;
+	margin-left: 5%;
+}
+.content-about-right .auout-other-link .contact.email{
+	font-size: 1.3em;
+}
+.content-about-right .auout-other-link .about-time-tip{
+	background-color: #D43836;
+	width: 96%;
+	height: 70px;
+	margin: 15px auto 0;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 70px;
+	color: white;
+	font-size: 1.35em;
+	font-family: "微软雅黑";
+}
+/*更多产品*/
+.contact-service-type a{
+	width: 47%;
+	height: auto;
+	margin: 0;
+	float: left;
+	display: inline-block;
+}
+.contact-service-type a:first-child{
+	margin-right: 5%;
+}
+.contant-products-type{
+	width: 94%;
+	height: auto;
+	margin: 0 auto;
+}
+.contant-products-type li{
+	display: inline-block;
+	float: left;
+	width: 22.5%;
+	margin-right: 3%;
+}
+.contant-products-type li:last-child{
+	margin: 0;
+}
+
+@media (max-width: 480px) {
+	.content-about{
+		padding-bottom: 1rem;
+	}
+	.left-list-title{
+		height: 1.5rem;
+		margin-bottom: -0.28rem;
+	}
+	.left-list-title .list-title{
+		border-bottom: 1.3rem solid #2F2F2F;
+		border-left: 1.05rem solid transparent;
+		border-right: 1.05rem solid transparent;
+	}
+	.left-list-title .list-title a{
+		height: 1.3rem;
+		line-height: 1.3rem;
+		font-size: 0.4rem;
+	}
+	.content-about-left .tab-content{
+		padding-top: 1.3rem;
+		padding-bottom: 0.5rem;
+	}
+	.company-image{
+		margin-bottom: 1.5rem;
+	}
+	.introduces-title{
+		line-height: 0.5rem;
+		font-size: 0.5rem;
+		letter-spacing: 0;
+		margin-bottom: 1rem;
+	}
+	.introduction{
+		line-height: 0.55rem;
+		margin: 0 auto 1.2rem;
+		font-size: 0.4rem;
+	}
+	.introduction-img{
+		margin-bottom: 0.8rem;
+	}
+	.content-account{
+		margin-bottom: 1.2rem;
+	}
+	.content-account li:before{
+		font-size: 0.8rem;
+	}
+	.account-list .account-year{
+		line-height: 0.7rem;
+		font-size: 0.7rem;
+		margin-bottom: 0.35rem;
+	}
+	.account-list p{
+		line-height: 1;
+		font-size: 0.3rem;
+		margin-bottom: 0.35rem;
+	}
+	.show-glory .glory-list img{
+		margin-bottom: 0.05rem;
+	}
+	.content-about .content-about-right{
+		padding-top: 0.5rem;
+	}
+	.content-about-right .content-about-right-title{
+		font-size: 0.4rem;
+		margin-bottom: 0.3rem;
+	}
+	.content-about-right .about-link{
+		padding-bottom: 0.5rem;
+	}
+	.content-about-right .about-link .list{
+		padding: 0.4rem 0;
+	}
+	.content-about-right .about-link .list dt{
+		font-size: 0.4rem;
+		line-height: 0.4rem;
+		margin-left: 0.2rem;
+	}
+	.content-about-right .about-link .list dd{
+		height: 0.7rem;
+		line-height: 0.7rem;
+	}
+	.content-about-right .about-link .list dd a{
+		font-size: 0.3rem;
+		margin-left: 0.3rem;
+	}
+	.content-about-right .about-link .list dd span.marker{
+		width: 2px;
+		height: 0.5rem;
+		line-height: 0.5rem;
+		top: 0.7rem;
+	}
+	.content-about-right .auout-other-link{
+		margin-top: 0.7rem;
+	}
+	.content-about-right .auout-other-link .contact{
+		line-height: 0.4rem;
+		font-size: 0.45rem;
+	}
+	.content-about-right .auout-other-link .contact.email{
+		font-size: 0.32rem;
+		line-height: 0.4rem;
+	}
+	.content-about-right .auout-other-link .about-time-tip{
+		height: 1.1rem;
+		margin: 0.5rem auto 0;
+		border-radius: 2px;
+		line-height: 1.1rem;
+		font-size: 0.4rem;
+	}
+}
+
+/*联系我们*/
+#contact-maps{
+	width: 100%;
+	margin-top: -40px;
+}
+.contact-list{
+	width: 96%;
+	margin: 40px 2% 0;
+	padding-bottom: 70px;
+	display: inline-block;
+	border-bottom: 1px solid #6D6D6D;
+}
+.contact-list .list{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	display: inline-block;
+	font-family: "微软雅黑";
+}
+.contact-list .list .list-title{
+	font-size: 28px;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+.contact-list .list img{
+	width: 65%;
+}
+.contact-list .list .list-contact-name{
+	font-size: 18px;
+	margin-top: 40px;
+	font-weight: 600;
+}
+.contact-list .list .list-contact-addr{
+	font-size: 12px;
+	margin-top: 25px;
+	font-weight: 400;
+}
+.contact-mode{
+	display: inline-block;
+	width: 100%;
+	padding: 100px 0;
+}
+.contact-mode .contact-mode-list{
+	float: left;
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+.contact-mode .contact-mode-list img{
+	width: 50%;
+	display: inline-block;
+}
+@media (max-width: 480px) {
+	#contact-maps{
+		margin-top: -0.7rem;
+	}
+	.contact-list{
+		margin-top: 0.7rem;
+		padding-bottom: 1rem;
+	}
+	.contact-list .list .list-title{
+		font-size: 0.7rem;
+		margin-bottom: 0.7rem;
+	}
+	.contact-list .list .list-contact-name{
+		font-size: 0.45rem;
+		margin-top: 0.6rem;
+	}
+	.contact-list .list .list-contact-addr{
+		font-size: 0.26rem;
+		margin-top: 0.3rem;
+	}
+	.contact-mode{
+		padding: 0.8rem 0;
+	}
+}

@@ -1,0 +1,47 @@
+.waste{
+	margin-top: 7%;
+}
+.waste-main{
+	margin: 0 auto;
+	height: 560px;
+	width: 95%;
+}
+.waste-product{
+	max-width: 437px;
+	height: 100%;   
+	width: 23%;
+	float: left;
+	position: relative;
+	margin-right: 2%;
+}
+.waste-product img{
+	width: 100%;
+	max-width: 437px;
+	height: 560px;
+}
+.waste-product button{
+	position: absolute;
+	width: 50%;
+	bottom: 4%;
+	left: 25%;
+	border:2px solid #dedede;
+	background-color: #ffffff;
+	height: 8%;
+}
+@media(max-width: 480px) {
+	.waste-main{
+		height: 10rem;
+	}
+	.waste-product button{
+		font-size: 0.6rem;
+		border:0.1rem solid #dedede;
+	}
+ .content-main{
+ 	height: 25rem;
+ 	padding-top: 2rem;
+ }
+ .waste-product img{
+	width: 100%;
+	height: 163px
+	}
+}
